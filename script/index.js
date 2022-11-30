@@ -48,7 +48,7 @@ function closeButton(id){
     btn.classList.add("dontshow")
 }
     
-function showModal(id){
+function showImage(id){
     let el = document.getElementById(id)
     el.classList.remove("dontshow") 
     el.classList.add("show")   
