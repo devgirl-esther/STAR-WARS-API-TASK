@@ -5,3 +5,23 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url("../images/Star\ Wars\ background\ night\ sky\ white\ stars.png") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.full {
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.dontshow{
+  display: none;
+}
